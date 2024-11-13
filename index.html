@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="icon">
+    <i class="fa fa-moon-o" id="dark"></i>
+    </div>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="نام شهر را وارد نمایید" spellcheck="true">
+            <button><img src="./images/search.png"></button>
+        </div>
+        <div class="error">
+            <span class="error-text">نام شهر را درست وارد نمایید</span>
+        </div>
+        <div class="weather-info">
+        <div class="logo-weather">
+            <img class="weather-icon" src="./images/clear.png">
+            <div class="temp">
+                <span class="tempo">22°c</span>
+            </div>
+            <div class="city-name">
+                <span class="city">تهران</span>
+            </div>
+        </div>
+        <div class="info">
+            <div class="left">
+                <img src="./images/humidity.png">
+                <div class="info-text">
+                    <span class="humidity">50%</span>
+                    <span>رطوبت</span>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./images/wind.png">
+                <div class="info-text">
+                    <span class="wind">15 Km/h</span>
+                    <span>سرعت باد</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
